@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Voting Eligibility </title>	
+	<script> 
+	var percentage = prompt("Enter your percentage:");
+if (percentage >= 80) {
+  alert("Dictintion");
+} else if (percentage >= 60) {
+  alert("First Division");
+} else if (percentage >= 40) {
+  alert("Second Division");
+} else {
+  alert("Fail");
+}
+    </script>
+
+</head>
+
+</html>

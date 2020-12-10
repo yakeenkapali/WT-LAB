@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            var num1,num2;
+            num1=prompt("Enter the first number");
+            num2=prompt("Enter the second number");
+            
+            alert("sum > num1+num2 =" +(parseInt(num1)+parseInt(num2)));
+            alert("diff > num1-num2 =" +(num1-num2));
+            alert("product > num1*num2 =" +(num1*num2));
+            alert("division > num1/num2 =" +(num1/num2));
+            alert("remainder > num1%num2 =" +(num1%num2));
+        </script>
+    </body>
+</html>
+
+

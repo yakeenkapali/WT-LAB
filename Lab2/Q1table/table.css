@@ -1,0 +1,37 @@
+body
+{
+  background-color: #FFE7E7;
+}
+
+table,th,td
+{ 
+  border:2px outset;
+  border-collapse:collapse;
+}
+th,td
+{
+  color: #373737;
+  padding:10px;
+}
+ul
+{
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #373737;
+  padding:10px;
+}
+ol
+{
+  float: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #373737;
+  padding:10px;
+}
+
+

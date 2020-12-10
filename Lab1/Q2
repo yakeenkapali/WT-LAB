@@ -1,0 +1,15 @@
+
+<html>
+    
+    <body>
+        <script>
+        var age = prompt("Enter you age");
+        if(age>18){
+            alert("You are eligible to vote.");
+        }
+        else if(age<18){
+            alert("You are not eligible to vote.");
+        }
+        
+
+
