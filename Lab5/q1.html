@@ -1,0 +1,25 @@
+<html>
+  <style type="text/css">
+  #image{
+    visibility:visible;
+
+    width: 300px;
+    height: 300px;
+  }
+
+  </style>
+  <body>
+    <img id="image" src="pics/riha2.jpg" alt="html">
+    <button onclick="hide()">hide</button>  
+    <button onclick="show()">show</button>
+  </body>
+  <script>
+    function hide(){
+      document.getElementById("image").style.visibility = "hidden";     
+    }
+    function show(){
+      document.getElementById("image").style.visibility = "visible";
+    }
+  </script>
+
+</html>

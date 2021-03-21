@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Stacking</title>
+
+    <style>
+            #my{
+                position: absolute;
+                top:0px;
+                left:0px;
+            }
+
+            #images{
+                position: inherit;
+                top: 26px;
+                left: -100px;
+            }
+    </style>
+    </head>
+
+    <body>
+          <h3>Image Stacking </h3>   
+          <img src="pics/guitar.jpg" id="images" height="500" />
+          <img src="pics/riha2.jpg" id="my" height="500px" />
+
+    <script>
+        var my = document.getElementById('my');
+    var images = document.getElementById('images');
+
+    my.addEventListener('click', function (ev) {
+      my.style.zIndex = 1;
+      images.style.zIndex = 0;
+    });
+    images.addEventListener('click', function (ev) {
+      images.style.zIndex = 1;
+      my.style.zIndex = 0;
+    });
+
+    </script>
+    </body>
+    
+</html>
